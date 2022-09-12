@@ -1,0 +1,390 @@
+html {
+    font-size: 62, 5%;
+}
+
+
+.tituloPrincipal {
+    color: rgb(235, 236, 236);
+    text-align: center;
+    background-color: rgba(235, 74, 25, 0.445);
+    font-size: 3rem;
+    grid-area: titulo;
+}
+
+.menuPrincipal ul li {
+    display: inline-block;
+    padding: 0px 7px;
+    font-size: 25px;
+    text-decoration: none;
+
+}
+
+ul {
+    list-style-type: none;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+
+}
+
+body {
+    background-image: url(../multimedia/cancha-tenis-arcilla2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Lato', sans-serif;
+}
+
+.galeria {
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+    grid-area: galeria ;
+
+
+}
+
+.foto1 {
+    background-image: url(../multimedia/tenis-imagen-ilustrativa.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    margin: 30px 40px;
+
+    width: 324px;
+    height: 200px;
+}
+
+.foto2 {
+    background-image: url(../multimedia/gonzalo-facello-1432034.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    margin: 30px 40px;
+    width: 324px;
+    height: 200px;
+}
+
+.foto3 {
+    background-image: url(../multimedia/lukáš-dlutko-2440324.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    margin: 30px 40px;
+    width: 324px;
+    height: 200px;
+}
+
+h3 {
+    background-color: rgba(230, 223, 218, 0.733);
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+.aat {
+    text-decoration: underline;
+    color: rgb(16, 16, 63);
+}
+
+
+.footer {
+    display: inline;
+}
+
+.redesSociales {
+    display: flex;
+    justify-content: center;
+    margin: 20px 20px;
+    padding: 10px 10px;
+
+}
+
+.redesSociales img {
+
+    width: 40px;
+}
+
+
+.copyright {
+    display: flex;
+    justify-content: center;    
+    background-color: rgba(175, 194, 211, 0.438);
+    padding: 5px;
+    border: solid 1px black;
+}
+
+.tituloContacto {
+    text-align: center;
+    color: aliceblue;
+    background-color: rgba(202, 127, 41, 0.719);
+    font-size: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    font-weight: 400;
+    color: rgb(12, 13, 14);
+    background-color: antiquewhite;
+    margin: 20px;
+    padding: 6px;
+}
+
+.catABC {
+    background-color: rgba(240, 248, 255, 0.644);
+    color: black;
+    margin: 3px;
+    padding: 3px;
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.tituloCat {
+    background-color: rgba(207, 135, 27, 0.685);
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: center;
+}
+
+.headerCat {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.headerContact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+
+
+
+.inscripcion {
+    background-color: rgba(240, 248, 255, 0.616);
+    color: black;
+    font-size: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: 5px;
+    padding: 3px;
+}
+
+.radio {
+    color: rgb(249, 252, 255);
+    font-size: 1rem;
+    font-weight: 700;
+    font-style: normal;
+    border-style: solid;
+    margin: 3px;
+    padding: 3px;
+}
+
+.imagenes {
+    display: grid;
+    grid-template-columns: repeat(4, 0.7fr);
+    grid-template-rows: repeat(3, 0.9fr);
+    grid-column-gap: 7px;
+    grid-row-gap: 10px;
+    grid-area: fotos;
+    margin: 10px 10px;
+
+}
+
+.headerImagenes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    grid-area: navImg;
+
+}
+
+.tituloGaleria {
+    background-color: rgba(214, 162, 49, 0.623);
+    color: antiquewhite;
+    font-size: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    text-align: center;
+    margin: 3px;
+    padding: 3px;
+    grid-area: tituloImg;
+}
+
+.fotos {
+    display: flex;
+    flex-wrap: wrap;
+    width: 324px;
+    height: 200px;
+}
+
+.headerPrincipal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    grid-area: nav;
+}
+
+.texto {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    grid-area: main;
+}
+
+p {
+    background-color: rgba(230, 223, 218, 0.733);
+    font-weight: bold;
+    font-family: serif;
+    font-size: 27px;
+    padding: 10px 10px;
+    display: inline-block;
+
+}
+
+.contenedor {
+    display: grid;
+    
+    grid-template-areas:
+    "nav"
+    "titulo"
+    "galeria"
+    "main"
+    "footer" ;
+    grid-template-rows: 0.2fr 0.2fr 0.5fr 1fr 0.5fr
+    
+}
+
+.footer {
+    grid-area: footer;
+}
+
+.contenedorImgs {
+    display: grid;
+    grid-template-areas:
+    "navImg"
+    "tituloImg"
+    "fotos"
+    "footer" ;
+    grid-template-rows: 0.1fr 0.1fr 1fr 0.1fr
+
+}
+
+
+.contenedorInsc {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+@media screen and (max-width: 768px){
+    .contenedor{
+        grid-template-rows: 0.2fr 0.2fr 0.5fr 0.3fr 0.2fr
+
+    }
+    .headerPrincipal{
+        flex-direction: column;
+        align-items: center;
+    }
+    .galeria{
+        flex-direction: column;
+        align-items: center;
+    }
+    .headerImagenes {
+        flex-direction: column;
+        align-items: center;
+
+    }
+    
+    .imagenes {
+        display: grid;
+        grid-template-columns: repeat(2, 0.7fr);
+        grid-template-rows: 0.2fr 0.2fr repeat(6, 0.2fr) 0.3fr;
+        grid-column-gap: 5px;
+        grid-row-gap: 5px;
+    
+    }
+    .tituloGaleria{
+        margin: 40px;
+    }
+    
+
+    
+}
+
+@media screen and (max-width: 500px){
+    
+   
+    .menuPrincipal ul li {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+     
+
+    }
+
+    .imagenes {
+        grid-template-columns: 1fr;
+        align-items: center;
+        margin: 15px 35px;
+    
+    }
+
+    .tituloGaleria {
+        margin: 50px;
+        align-self: center;
+    }
+
+    .contenedorInsc {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .radio {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-column-gap: 10px;
+    }
+
+    .formulario {
+        display: flex;
+        align-items: center;
+    }
+    
+    .headerContact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .formContact {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+       
+    }
+
+    .headerCat {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+
+}
+
