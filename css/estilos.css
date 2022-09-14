@@ -2,14 +2,14 @@ html {
     font-size: 62, 5%;
 }
 
-/* 
+
 .tituloPrincipal {
     color: rgb(235, 236, 236);
     text-align: center;
     background-color: rgba(235, 74, 25, 0.445);
     font-size: 3rem;
     grid-area: titulo;
-} */
+}
 
 .menuPrincipal ul li {
     display: inline-block;
