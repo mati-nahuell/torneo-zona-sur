@@ -6,7 +6,7 @@ html {
 .tituloPrincipal {
     color: rgb(235, 236, 236);
     text-align: center;
-    background-color: rgba(235, 74, 25, 0.445);
+    background: linear-gradient(to bottom, rgba(235, 74, 25, 0.445) rgba(221, 198, 198, 0.836));
     font-size: 3rem;
     grid-area: titulo;
 }
