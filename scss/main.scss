@@ -1,3 +1,4 @@
+@import "variables";
 @import "mediaqueries";
 @import "index";
 
@@ -60,11 +61,9 @@ html {
 
 
 .inscripcion {
+    @extend .tituloContacto;
     background-color: rgba(240, 248, 255, 0.616);
     color: black;
-    font-size: 3rem;
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center;
     margin: 5px;
     padding: 3px;
 }
@@ -113,8 +112,8 @@ html {
 .fotos {
     display: flex;
     flex-wrap: wrap;
-    width: 324px;
-    height: 200px;
+    @include sizes (324px, 200px);
+    
 }
 
 .headerPrincipal {

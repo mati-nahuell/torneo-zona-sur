@@ -1,0 +1,13 @@
+$estilos:(
+
+    color: rgb(235, 236, 236),
+    alineacion: center,
+    backColor: rgba(235, 74, 25, 0.445)
+
+);
+
+@mixin sizes($ancho, $alto){
+    width: $ancho;
+    height: $alto;
+    
+}
