@@ -10,10 +10,10 @@ html {
 
 
 .tituloContacto {
-    text-align: center;
+    text-align: map-get($estilos, alineacion);
     color: aliceblue;
     background-color: rgba(202, 127, 41, 0.719);
-    font-size: 3rem;
+    font-size: map-get($estilos, tamanoFuente);
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -29,7 +29,7 @@ html {
 
 .catABC {
     background-color: rgba(240, 248, 255, 0.644);
-    color: black;
+    color: map-get($estilos, colorTitulo);
     margin: 25px;
     padding: 3px;
     font-size: 2rem;
@@ -38,7 +38,7 @@ html {
 
 .tituloCat {
     background-color: rgba(207, 135, 27, 0.685);
-    font-size: 3rem;
+    font-size: map-get($estilos, tamanoFuente);
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(236, 232, 232);
     text-align: center;
@@ -63,7 +63,7 @@ html {
 .inscripcion {
     @extend .tituloContacto;
     background-color: rgba(240, 248, 255, 0.616);
-    color: black;
+    color: map-get($estilos, colorTitulo);
     margin: 5px;
     padding: 3px;
 }
@@ -100,7 +100,7 @@ html {
 .tituloGaleria {
     background-color: rgba(214, 162, 49, 0.623);
     color: rgb(245, 239, 233);
-    font-size: 3rem;
+    font-size: map-get($estilos, tamanoFuente);
     font-family: 'Times New Roman', Times, serif;
     font-weight: 700;
     text-align: center;
