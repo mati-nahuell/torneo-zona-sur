@@ -1,61 +1,4 @@
 @charset "UTF-8";
-@media screen and (max-width: 768px) {
-  .contenedor {
-    grid-template-rows: 0.2fr 0.2fr 0.5fr 0.3fr 0.2fr; }
-  .headerPrincipal {
-    flex-direction: column;
-    align-items: center; }
-  .galeria {
-    flex-direction: column;
-    align-items: center; }
-  .headerImagenes {
-    flex-direction: column;
-    align-items: center; }
-  .imagenes {
-    display: grid;
-    grid-template-columns: repeat(2, 0.7fr);
-    grid-template-rows: 0.2fr 0.2fr repeat(6, 0.2fr) 0.3fr;
-    grid-column-gap: 5px;
-    grid-row-gap: 5px; }
-  .tituloGaleria {
-    margin: 40px; } }
-
-@media screen and (max-width: 669px) {
-  .menuPrincipal ul li {
-    display: flex;
-    flex-direction: column;
-    justify-content: center; }
-  .imagenes {
-    grid-template-columns: 1fr;
-    align-items: center;
-    margin: 15px 35px; }
-  .tituloGaleria {
-    margin: 50px;
-    align-self: center; }
-  .contenedorInsc {
-    display: flex;
-    flex-direction: column;
-    align-items: center; }
-  .radio {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-column-gap: 10px; }
-  .formulario {
-    display: flex;
-    align-items: center; }
-  .headerContact {
-    display: flex;
-    flex-direction: column;
-    align-items: center; }
-  .formContact {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly; }
-  .headerCat {
-    display: flex;
-    flex-direction: column;
-    align-items: center; } }
-
 .tituloPrincipal {
   color: #ebecec;
   text-align: center;
@@ -279,3 +222,60 @@ p {
   display: flex;
   flex-direction: row;
   justify-content: space-between; }
+
+@media screen and (max-width: 768px) {
+  .contenedor {
+    grid-template-rows: 0.2fr 0.2fr 0.5fr 0.3fr 0.2fr; }
+  .headerPrincipal {
+    flex-direction: column;
+    align-items: center; }
+  .galeria {
+    flex-direction: column;
+    align-items: center; }
+  .headerImagenes {
+    flex-direction: column;
+    align-items: center; }
+  .imagenes {
+    display: grid;
+    grid-template-columns: repeat(2, 0.7fr);
+    grid-template-rows: 0.2fr 0.2fr repeat(6, 0.2fr) 0.3fr;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px; }
+  .tituloGaleria {
+    margin: 40px; } }
+
+@media screen and (max-width: 669px) {
+  .menuPrincipal ul li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+  .imagenes {
+    grid-template-columns: 1fr;
+    align-items: center;
+    margin: 15px 35px; }
+  .tituloGaleria {
+    margin: 50px;
+    align-self: center; }
+  .contenedorInsc {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .radio {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column-gap: 10px; }
+  .formulario {
+    display: flex;
+    align-items: center; }
+  .headerContact {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .formContact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly; }
+  .headerCat {
+    display: flex;
+    flex-direction: column;
+    align-items: center; } }
