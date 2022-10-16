@@ -103,7 +103,7 @@ html {
   font-size: 3rem;
   font-family: 'Times New Roman', Times, serif; }
 
-.formulario {
+.formulario1 {
   display: flex;
   flex-direction: column;
   font-weight: 400;
@@ -137,11 +137,30 @@ html {
   flex-direction: row;
   justify-content: space-between; }
 
+.ctrl {
+  width: 50%;
+  margin: 16px;
+  border: 1px solid; }
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  font-weight: 400;
+  color: #0c0d0e;
+  background-color: antiquewhite;
+  margin: 20px;
+  padding: 6px; }
+
 .inscripcion {
   background-color: rgba(240, 248, 255, 0.616);
   color: black;
   margin: 5px;
   padding: 3px; }
+
+.controls {
+  width: 50%;
+  margin: 16px;
+  border: 1px solid; }
 
 .radio {
   color: #f9fcff;
@@ -239,7 +258,7 @@ p {
     display: grid;
     grid-template-columns: repeat(2, 0.7fr);
     grid-template-rows: 0.2fr 0.2fr repeat(6, 0.2fr) 0.3fr;
-    grid-column-gap: 5px;
+    grid-column-gap: 90px;
     grid-row-gap: 5px; }
   .tituloGaleria {
     margin: 40px; } }
@@ -267,6 +286,16 @@ p {
   .formulario {
     display: flex;
     align-items: center; }
+  .formulario1 {
+    display: flex;
+    align-items: center; }
+  .controls {
+    width: 90%; }
+  .ctrl {
+    width: 90%; }
+  .button {
+    width: 90%;
+    margin: 15px; }
   .headerContact {
     display: flex;
     flex-direction: column;
@@ -278,4 +307,6 @@ p {
   .headerCat {
     display: flex;
     flex-direction: column;
-    align-items: center; } }
+    align-items: center; }
+  p {
+    font-size: 20px; } }

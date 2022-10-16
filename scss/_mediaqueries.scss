@@ -17,11 +17,12 @@
 
     }
     
+    
     .imagenes {
         display: grid;
         grid-template-columns: repeat(2, 0.7fr);
         grid-template-rows: 0.2fr 0.2fr repeat(6, 0.2fr) 0.3fr;
-        grid-column-gap: 5px;
+        grid-column-gap: 90px;
         grid-row-gap: 5px;
     
     }
@@ -73,6 +74,24 @@
         align-items: center;
     }
     
+    .formulario1 {
+        display: flex;
+        align-items: center;
+    }
+    
+    .controls {
+        width: 90%;
+    }
+
+    .ctrl {
+        width: 90%;
+    }
+
+    .button {
+        width: 90%;
+        margin: 15px;
+    }
+
     .headerContact {
         display: flex;
         flex-direction: column;
@@ -91,6 +110,10 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+
+    p {
+        font-size: 20px;
     }
 
 
